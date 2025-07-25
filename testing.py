@@ -38,9 +38,9 @@ import pandas as pd
 # ___________________________________________________________________________
 
 
-# df = pd.read_parquet('climax_processed_NA.parquet')
-# print(df.head())
-# print(df.shape)  # This will print (number of rows, number of columns)
+df = pd.read_parquet('climax_processed_NA.parquet')
+print(df.head())
+print(df.shape)  # This will print (number of rows, number of columns)
 
 # print("Column Titles:")
 # print(df.columns.tolist())  # Prints all column names as a list
@@ -103,7 +103,7 @@ import pandas as pd
 
 
 
-data = np.load('X_data_final_2.npy')
-print("Array shape:", data.shape)
-print("Array dtype:", data.dtype)
-print("First few entries:\n", data[:5])
+# data = np.load('X_data_final.npy')
+# print("Array shape:", data.shape)
+# print("Array dtype:", data.dtype)
+# print("First few entries:\n", data[:5])
